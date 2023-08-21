@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: ginger;
+    src: url("assets/F37_Ginger/Ginger.otf") format("opentype");
+  }
