@@ -12,7 +12,7 @@ const HomePage = () => {
             <div className="z-10">
                 <div className="py-6 max-w-[280px] pr-6 text-2xl font-normal border-b-8 border-[#2C363F]">
                     <p>
-                        Get your Chores done
+                        Get your Task done
                     </p>
                 </div>
                 <div>
@@ -20,7 +20,7 @@ const HomePage = () => {
                     QUICKER AND FASTER
                     </h1>
                     <p className="text-2xl py-4 max-w-[650px]">
-                    We provide you with the resources you need to excel and get chores and work done within your locality.
+                    We provide you with the community you need to get chores/task and work done from someone nearby.
                     </p>
                 </div>
                 {/* get started button disabled till launch */}
@@ -41,7 +41,7 @@ const HomePage = () => {
                     </Popup>
                 </div>
             </div>
-            <div className="absolute right-[190px] z-0">
+            <div className="absolute right-[190px] z-0 invisible xl:visible">
                 <img alt="Backgound Image" src={home_img} className="h-[560px]" />
             </div>
         </div>
