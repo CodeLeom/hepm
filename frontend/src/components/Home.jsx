@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from './Header'
 import home_img from "../assets/home_img.svg"
+import Popup from 'reactjs-popup'
+import Waitlist from './Waitlist'
 
 const HomePage = () => {
   return (
@@ -21,10 +23,22 @@ const HomePage = () => {
                     We provide you with the resources you need to excel and get chores and work done within your locality.
                     </p>
                 </div>
-                <div>
+                {/* get started button disabled till launch */}
+                {/* <div>
                     <button className="py-4 px-8 text-white text-lg bg-[#111111]">
                         Get Started
                     </button>
+                </div> */}
+
+                {/* join waitlist button: to be disabled after launch */}
+                <div>
+                    <Popup trigger={
+                        <button className="py-4 px-8 text-white text-lg bg-[#111111]">
+                            Join Waitlist
+                        </button>} 
+                        position="right center">
+                        <Waitlist />
+                    </Popup>
                 </div>
             </div>
             <div className="absolute right-[190px] z-0">
