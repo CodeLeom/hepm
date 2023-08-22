@@ -20,7 +20,7 @@ const HomePage = () => {
                     QUICKER AND FASTER
                     </h1>
                     <p className="text-2xl py-4 max-w-[650px]">
-                    We provide you with the community you need to get chores/task and work done from someone nearby.
+                    Hepm [pronounced: hem] is a place to get help with your tasks or handle your domestic chores from people nearby.
                     </p>
                 </div>
                 {/* get started button disabled till launch */}
